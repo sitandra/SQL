@@ -91,4 +91,4 @@ FROM `messages`
 WHERE `created_at` > NOW();
 DELETE
 FROM `trash_messages`
-WHERE created_at > NOW();
+WHERE `created_at` > NOW();
